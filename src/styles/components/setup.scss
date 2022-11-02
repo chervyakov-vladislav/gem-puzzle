@@ -1,0 +1,23 @@
+.setup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.setup__stats {
+  font-family: $lato;
+  font-size: rem(16px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+
+    @include phones {
+      width: 60%;
+    }
+}
+
+.setup__settings {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

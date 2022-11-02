@@ -1,0 +1,14 @@
+.button-mix {
+  max-width: 300px;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(241, 180, 79, 0.35);
+  background: $button-color;
+  font-size: rem(18px);
+  transition: .3s;
+
+    &:hover {
+      background: #fbd574;
+    }
+}

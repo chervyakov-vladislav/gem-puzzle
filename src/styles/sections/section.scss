@@ -1,0 +1,11 @@
+.section {
+  height: 100%;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &--100vh {
+    height: 100vh;
+  }
+}

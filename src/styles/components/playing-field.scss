@@ -1,0 +1,28 @@
+.playing-field {
+  @include lato-bold;
+  font-size: rem(25px);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  user-select: none;
+}
+
+.playing-field__size {
+  margin-bottom: 1rem;
+}
+
+.playing-field__setups {
+  margin-bottom: 1rem;
+}
+
+.playing-field__container {
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+  pointer-events: none;
+}
+
+.playing-field__new-game {
+  margin-top: 1.5rem;
+}

@@ -1,0 +1,35 @@
+.music {
+  width: 1.5rem;
+	height: 1.5rem;
+	transition: .3s;
+  fill: $button-color;
+
+    &--mute {
+      fill: $font-color;
+    } 
+}
+
+.param {
+  width: 1.5rem;
+	height: 1.5rem;
+	transition: .3s;
+  fill: $button-color;
+}
+
+.param__icon, .music__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.param__icon {
+  margin-left: 1.5rem;
+}
+
+.close {
+  width: 2rem;
+  height: 2rem;
+  fill: $font-color;
+  transform: rotate(90deg);
+}
