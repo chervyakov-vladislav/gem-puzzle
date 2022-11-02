@@ -1,0 +1,22 @@
+.number-button {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 25%;
+  height: 25%;
+  padding: 0;
+  border: 1px solid #E7E7E7;
+  border-radius: 8px;
+  font-size: 1.8rem;
+  box-shadow: 2px 2px 0px rgba(208, 208, 208, 0.25);
+  background: #fff;
+  transition: .5s;
+
+    &:hover {
+      background: #FFEAC8;
+    }
+
+    &--green {
+      animation: green 2s ease-in;
+    }
+}

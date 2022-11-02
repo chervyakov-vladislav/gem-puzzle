@@ -1,0 +1,28 @@
+//vars
+@import "abstracts/_variables.scss";
+
+
+//media
+@import "base/_media.scss";
+
+
+//normalize 
+
+@import "base/_normalize.scss";
+
+
+//setups
+
+@import "base/_mixins.scss";
+@import "base/_fonts.scss";
+@import "base/_layout.scss";
+@import "base/_keyframes.scss";
+@import "base/_icons.scss";
+
+//sections
+
+@import "./sections/**.scss";
+
+//components
+
+@import "./components/**.scss";

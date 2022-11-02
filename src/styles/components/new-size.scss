@@ -1,0 +1,19 @@
+.new-size {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.new-size__btn {
+  background: #fff;
+  width: 4rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  font-size: rem(18px);
+  font-family: $lato-bold;
+}
