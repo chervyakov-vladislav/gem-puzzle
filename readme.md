@@ -1,1 +1,1 @@
-123
+https://chervyakov-vladislav.github.io/gem-puzzle/

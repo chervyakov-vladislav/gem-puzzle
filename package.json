@@ -6,12 +6,12 @@
   "scripts": {
     "start": "cross-env NODE_ENV=development gulp",
     "build": "gulp build",
-    "deploy": "gh-pages -d dist -e gem-puzzle"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://rolling-scopes-school.github.io/chervyakov-vladislav-JSFE2022Q3",
+  "homepage": "https://github.com/chervyakov-vladislav/gem-puzzle",
   "devDependencies": {
     "@babel/core": "7.17.10",
     "@babel/preset-env": "7.17.10",
